@@ -1,0 +1,9 @@
+--batch_36522ad7-fc75-4b56-8c71-56071383e77c
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "PM175-C", "DocDate": "2023-07-26", "TaxDate": "2023-07-26", "DueDate": "2023-07-26", "CounterReference": "", "Remarks": "BS00000854", "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100004788", "U_InsNo": "", "U_ContNo": "BS00000854", "U_ClrngDoc": "100004788.0", "U_ClrngDT": "20230726.0", "U_SubAccount": "", "PaymentChecks": ["14118", 3442.64, "2023-07-26", "FY2023", 3442.64], "PaymentInvoices": [{"DocEntry": "4223", "InvoiceType": "it_Invoice"}, {"DocEntry": "4223", "InvoiceType": "it_Invoice"}]}
+--batch_36522ad7-fc75-4b56-8c71-56071383e77c--

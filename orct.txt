@@ -1,0 +1,417 @@
+--batch_36522ad7-fc75-4b56-8c71-56071383e77c
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "M186J-C", "DocDate": "2023-12-11", "TaxDate": "2023-12-11", "DueDate": "2023-12-11", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "CD12", "U_UnitName": "PET2", "U_DocNo": "100011512", "U_InsNo": "", "U_ContNo": "100011512", "U_ClrngDoc": "100011512", "U_ClrngDT": "20231211.0", "U_SubAccount": "", "DocRate": "55.3", "DocCurrency": "USD", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": "33331", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-11", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 57974.77, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10710", "InvoiceType": "it_Invoice", "DocRate": "55.3"}]}
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "M186J-C", "DocDate": "2023-12-13", "TaxDate": "2023-12-12", "DueDate": "2023-12-12", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "CD12", "U_UnitName": "PET2", "U_DocNo": "100011557", "U_InsNo": "", "U_ContNo": "100011557", "U_ClrngDoc": "100011557", "U_ClrngDT": "20231213.0", "U_SubAccount": "", "DocRate": "55.3", "DocCurrency": "USD", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": "33331", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-13", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 95083.66, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10711", "InvoiceType": "it_Invoice", "DocRate": "55.3"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q04P-C", "DocDate": "2023-12-19", "TaxDate": "2023-12-19", "DueDate": "2023-12-19", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "MB11", "U_UnitName": "MAC2", "U_DocNo": "100011660", "U_InsNo": "NEHB023Z0002", "U_ContNo": "MCNK CP", "U_ClrngDoc": "100011661", "U_ClrngDT": "20231219.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-19", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 7230.79, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10685", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q04P-C", "DocDate": "2023-12-19", "TaxDate": "2023-12-19", "DueDate": "2023-12-19", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100011662", "U_InsNo": "", "U_ContNo": "100011662", "U_ClrngDoc": "100011662", "U_ClrngDT": "20231219.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-19", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 25451.58, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10662", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q04P-C", "DocDate": "2023-12-19", "TaxDate": "2023-12-19", "DueDate": "2023-12-19", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100011663", "U_InsNo": "", "U_ContNo": "100011663", "U_ClrngDoc": "100011663", "U_ClrngDT": "20231219.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-19", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 27177.51, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10671", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "MW350-C", "DocDate": "2023-12-21", "TaxDate": "2023-12-21", "DueDate": "2023-12-21", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100011796", "U_InsNo": "", "U_ContNo": "100011796", "U_ClrngDoc": "100011796", "U_ClrngDT": "20231221.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-21", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 2046.0, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10672", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "MW350-C", "DocDate": "2023-12-21", "TaxDate": "2023-12-21", "DueDate": "2023-12-21", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100011797", "U_InsNo": "", "U_ContNo": "100011797", "U_ClrngDoc": "100011797", "U_ClrngDT": "20231221.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-21", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 1364.0, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10668", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "MW350-C", "DocDate": "2023-12-21", "TaxDate": "2023-12-21", "DueDate": "2023-12-21", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100011798", "U_InsNo": "", "U_ContNo": "100011798", "U_ClrngDoc": "100011798", "U_ClrngDT": "20231221.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-21", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 5489.62, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10666", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "MW350-C", "DocDate": "2023-12-21", "TaxDate": "2023-12-21", "DueDate": "2023-12-21", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100011799", "U_InsNo": "", "U_ContNo": "100011799", "U_ClrngDoc": "100011799", "U_ClrngDT": "20231221.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-21", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 60830.0, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10777", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "MW350-C", "DocDate": "2023-12-21", "TaxDate": "2023-12-21", "DueDate": "2023-12-21", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100011800", "U_InsNo": "", "U_ContNo": "100011800", "U_ClrngDoc": "100011800", "U_ClrngDT": "20231221.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-21", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 62396.94, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10705", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q07H-C", "DocDate": "2023-12-28", "TaxDate": "2023-12-28", "DueDate": "2023-12-28", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100011843", "U_InsNo": "", "U_ContNo": "100011843", "U_ClrngDoc": "100011843", "U_ClrngDT": "20231228.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-28", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 21400.0, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10706", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q958-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "MA11", "U_UnitName": "MAC1", "U_DocNo": "100012065", "U_InsNo": "", "U_ContNo": "100012065", "U_ClrngDoc": "100012065", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "55.71072", "DocCurrency": "USD", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": "33333", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 10427.5, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10579", "InvoiceType": "it_Invoice", "DocRate": "55.71072"}, {"DocEntry": "10697", "InvoiceType": "it_Invoice", "DocRate": "55.71072"}, {"DocEntry": "10781", "InvoiceType": "it_Invoice", "DocRate": "55.71072"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "PI003-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "CC17", "U_UnitName": "MET6", "U_DocNo": "100012264", "U_InsNo": "", "U_ContNo": "100012264", "U_ClrngDoc": "100012264", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 16437.48, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10636", "InvoiceType": "it_Invoice", "DocRate": "1"}, {"DocEntry": "10637", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "MZ320-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "CA18", "U_UnitName": "CHM8", "U_DocNo": "100012265", "U_InsNo": "", "U_ContNo": "100012265", "U_ClrngDoc": "100012265", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "55.55", "DocCurrency": "USD", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": "33333", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 775.2, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10733", "InvoiceType": "it_Invoice", "DocRate": "55.55"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "6D024-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "CF16", "U_UnitName": "FOOD2B", "U_DocNo": "100012266", "U_InsNo": "", "U_ContNo": "100012266", "U_ClrngDoc": "100012266", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "55.55906", "DocCurrency": "USD", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": "33331", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 812.24, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10794", "InvoiceType": "it_Invoice", "DocRate": "55.55906"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "MJ028-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "CA19", "U_UnitName": "CHM9", "U_DocNo": "100012267", "U_InsNo": "", "U_ContNo": "100012267", "U_ClrngDoc": "100012267", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "55.57277", "DocCurrency": "USD", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": "33333", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 907.5, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10630", "InvoiceType": "it_Invoice", "DocRate": "55.57277"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "MJ006-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "CC15", "U_UnitName": "MET4", "U_DocNo": "100012268", "U_InsNo": "", "U_ContNo": "100012268", "U_ClrngDoc": "100012268", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "55.55", "DocCurrency": "USD", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": "33333", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 2579.01, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10635", "InvoiceType": "it_Invoice", "DocRate": "55.55"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "MJ028-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "CA19", "U_UnitName": "CHM9", "U_DocNo": "100012269", "U_InsNo": "", "U_ContNo": "100012269", "U_ClrngDoc": "100012269", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "55.55001", "DocCurrency": "USD", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": "33331", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 240.56, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10568", "InvoiceType": "it_Invoice", "DocRate": "55.55001"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "MJ037-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "CC18", "U_UnitName": "MET7", "U_DocNo": "100012271", "U_InsNo": "", "U_ContNo": "100012271", "U_ClrngDoc": "100012271", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "55.55", "DocCurrency": "USD", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": "33333", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 1646.88, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10731", "InvoiceType": "it_Invoice", "DocRate": "55.55"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "MZ320-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "CA12", "U_UnitName": "CHM2", "U_DocNo": "100012272", "U_InsNo": "", "U_ContNo": "100012272", "U_ClrngDoc": "100012272", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "55.55", "DocCurrency": "USD", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": "33333", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 1092.0, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10629", "InvoiceType": "it_Invoice", "DocRate": "55.55"}, {"DocEntry": "10732", "InvoiceType": "it_Invoice", "DocRate": "55.55"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "S434V-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "CG12", "U_UnitName": "LFS3", "U_DocNo": "100012273", "U_InsNo": "", "U_ContNo": "100012273", "U_ClrngDoc": "100012273", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "55.55", "DocCurrency": "USD", "TransferAccount": "33331", "TransferSum": 0.0, "TransferDate": "2023-12-29", "TransferReference": "", "CashAccount": "33331", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 5860.83, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10735", "InvoiceType": "it_Invoice", "DocRate": "55.55"}, {"DocEntry": "10801", "InvoiceType": "it_Invoice", "DocRate": "55.55"}, {"DocEntry": "10816", "InvoiceType": "it_Invoice", "DocRate": "55.55"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "MJ028-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "CA19", "U_UnitName": "CHM9", "U_DocNo": "100012274", "U_InsNo": "", "U_ContNo": "100012274", "U_ClrngDoc": "100012274", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "55.55", "DocCurrency": "USD", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": "33333", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 4250.0, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10620", "InvoiceType": "it_Invoice", "DocRate": "55.55"}, {"DocEntry": "10721", "InvoiceType": "it_Invoice", "DocRate": "55.55"}, {"DocEntry": "10771", "InvoiceType": "it_Invoice", "DocRate": "55.55"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "MJ038-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "MC14", "U_UnitName": "MAC14", "U_DocNo": "100012277", "U_InsNo": "", "U_ContNo": "100012277", "U_ClrngDoc": "100012277", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "55.55003", "DocCurrency": "USD", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": "33331", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 80.65, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10670", "InvoiceType": "it_Invoice", "DocRate": "55.55003"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "PM175-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100012283", "U_InsNo": "", "U_ContNo": "100012283", "U_ClrngDoc": "100012283", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 73672.45, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10703", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "PM175-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100012284", "U_InsNo": "", "U_ContNo": "100012284", "U_ClrngDoc": "100012284", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 5400.83, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10799", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q04P-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "MB11", "U_UnitName": "MAC2", "U_DocNo": "100012285", "U_InsNo": "", "U_ContNo": "100012285", "U_ClrngDoc": "100012285", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 2625790.0, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10607", "InvoiceType": "it_Invoice", "DocRate": "1"}, {"DocEntry": "10746", "InvoiceType": "it_Invoice", "DocRate": "1"}, {"DocEntry": "10815", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q04P-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100012290", "U_InsNo": "", "U_ContNo": "100012290", "U_ClrngDoc": "100012290", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 1265.93, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10689", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q04P-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100012291", "U_InsNo": "", "U_ContNo": "100012291", "U_ClrngDoc": "100012291", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 2210.22, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10692", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q04P-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100012292", "U_InsNo": "", "U_ContNo": "100012292", "U_ClrngDoc": "100012292", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 12932.76, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10695", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q04P-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100012293", "U_InsNo": "", "U_ContNo": "100012293", "U_ClrngDoc": "100012293", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 4453.05, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10821", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q04P-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100012294", "U_InsNo": "", "U_ContNo": "100012294", "U_ClrngDoc": "100012294", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 1163.27, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10807", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q04P-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100012295", "U_InsNo": "", "U_ContNo": "100012295", "U_ClrngDoc": "100012295", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 12473.6, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10808", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q04P-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100012296", "U_InsNo": "", "U_ContNo": "100012296", "U_ClrngDoc": "100012296", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 24961.0, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10709", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "4Q04P-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "HB02", "U_UnitName": "ADMI", "U_DocNo": "100012297", "U_InsNo": "", "U_ContNo": "100012297", "U_ClrngDoc": "100012297", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "1", "DocCurrency": "PHP", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": null, "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10120", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10120", "CheckSum": 31496.62, "ManualCheck": "tNO", "Currency": "PHP"}], "PaymentInvoices": [{"DocEntry": "10817", "InvoiceType": "it_Invoice", "DocRate": "1"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/IncomingPayments
+Content-Type: application/json
+
+{"CardCode": "M186J-C", "DocDate": "2023-12-29", "TaxDate": "2023-12-29", "DueDate": "2023-12-29", "DocType": "rCustomer", "CounterReference": null, "Remarks": null, "U_Unit": "CD12", "U_UnitName": "PET2", "U_DocNo": "100012367", "U_InsNo": "", "U_ContNo": "100012367", "U_ClrngDoc": "100012367", "U_ClrngDT": "20231229.0", "U_SubAccount": "", "DocRate": "56.82705", "DocCurrency": "USD", "TransferAccount": null, "TransferSum": 0.0, "TransferDate": null, "TransferReference": null, "CashAccount": "33331", "CashSum": 0.0, "Reference1": null, "Reference2": null, "JournalRemarks": "Incoming Payments - PW049-C", "CheckAccount": "10131", "PaymentChecks": [{"DueDate": "2023-12-29", "BankCode": "BNZ", "CheckAccount": "10131", "CheckSum": 4577.23, "ManualCheck": "tNO", "Currency": "USD"}], "PaymentInvoices": [{"DocEntry": "10646", "InvoiceType": "it_Invoice", "DocRate": "56.82705"}]}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+--batch_36522ad7-fc75-4b56-8c71-56071383e77c--

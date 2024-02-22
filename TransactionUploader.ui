@@ -1,0 +1,3606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>941</width>
+    <height>669</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Transaction Uploader</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+	margin: 5
+}
+
+QLabel{
+	padding: 3;
+	border-radius: 20px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="6" column="0" colspan="6">
+     <spacer name="verticalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="0" colspan="6">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="pushButton_browse">
+      <property name="maximumSize">
+       <size>
+        <width>75</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+      </property>
+      <property name="text">
+       <string>Browse</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_filename">
+      <property name="minimumSize">
+       <size>
+        <width>500</width>
+        <height>0</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="3">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="4" colspan="2">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>200</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="5" column="0" colspan="7">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+
+QPushButton {
+	background-color: #f3d162
+
+}</string>
+      </property>
+      <property name="currentIndex">
+       <number>4</number>
+      </property>
+      <property name="elideMode">
+       <enum>Qt::ElideRight</enum>
+      </property>
+      <widget class="QWidget" name="tab_grpo">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <attribute name="title">
+        <string>GRPO</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="2" column="2">
+         <widget class="QLabel" name="label_grpo_total_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:brown;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Doc. Already Exist: 0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="2">
+         <widget class="QLabel" name="label">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:red;
+color:white;
+font-weight: bold;
+border-radius: 25px
+}</string>
+          </property>
+          <property name="text">
+           <string>Required Fields: 0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="0" colspan="5">
+         <widget class="QTableWidget" name="tableWidget_grpo">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <column>
+           <property name="text">
+            <string>Status</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Posting Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Document Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Due Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ref. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ctrl Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Doc. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Remarks</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Intsr. No</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Cont. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng Doc.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>2nd Sub Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Currency</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Trans Amount</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line Total</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Item Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Vat Group</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Quantity</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>UoM Code</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item row="17" column="0">
+         <widget class="QPushButton" name="pushButton_upload_grpo">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Post</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" colspan="2" alignment="Qt::AlignTop">
+         <widget class="QLabel" name="label_grpo_total_bp_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:orange;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>BP Does Not Exist: 0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="0" colspan="2">
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Find</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QLabel" name="label_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:green;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>GL Does Not Exist: 0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="4">
+         <widget class="QPushButton" name="pushButton_show_grpo">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Upload</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="2">
+         <widget class="QLineEdit" name="lineEdit_2"/>
+        </item>
+        <item row="0" column="3">
+         <widget class="QLabel" name="label_grpo_total_ready">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:rgb(173, 216, 230);
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>GRPO READY TO POST:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="0" colspan="5">
+         <widget class="Line" name="line">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_grpo_total_item_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:yellow;
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Item Does Not Exist: 0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="4">
+         <widget class="QPushButton" name="pushButton_grpo_clear">
+          <property name="text">
+           <string>Clear</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_apinvoice">
+       <attribute name="title">
+        <string>AP Invoice</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="5" column="0" colspan="4">
+         <widget class="QTableWidget" name="tableWidget_apinvoice">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <column>
+           <property name="text">
+            <string>Status</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Posting Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Document Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Due Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ref. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ctrl Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Doc. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Remarks</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Intsr. No</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Cont. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng Doc.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>2nd Sub Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Currency</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Trans Amount</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line Total</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Item Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Vat Group</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>WTax Liable</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Quantity</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>UoM Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>WT Code 1</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>WT Code 2</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>WT Amount</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>GRPO Doc. Entry</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="lineEdit_3"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_apinvoice_total_bp_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:orange;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>BP Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:red;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Required Fields: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label_apinvoice_total_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:brown;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Doc. Already Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_apinvoice_total_item_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:yellow;
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Item Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Find</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0" colspan="4">
+         <widget class="Line" name="line_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QPushButton" name="pushButton_upload_apinvoice">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Post</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QPushButton" name="pushButton_show_apinvoice">
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Upload</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_5">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:green;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>GL Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_apinvoice_total_ready">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:rgb(173, 216, 230);
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>AP INVOICE READY TO POST:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QPushButton" name="pushButton_apinvoice_clear">
+          <property name="text">
+           <string>Clear</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_creditmemo">
+       <attribute name="title">
+        <string>Credit Memo</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:red;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Required Fields: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0" colspan="4">
+         <widget class="QTableWidget" name="tableWidget_apcm">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <column>
+           <property name="text">
+            <string>Status</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Posting Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Document Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Due Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ref. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ctrl Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Doc. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Remarks</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Intsr. No</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Cont. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng Doc.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>2nd Sub Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Currency</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Trans Amount</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line Total</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Item Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Vat Group</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Quantity</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>UoM Code</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QPushButton" name="pushButton_show_apcm">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Upload</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLineEdit" name="lineEdit_4"/>
+        </item>
+        <item row="3" column="0" colspan="4">
+         <widget class="Line" name="line_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QPushButton" name="pushButton_upload_apcm">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Post</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:green;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>GL Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_apcm_total_bp_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:orange;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>BP Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_apcm_total_item_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:yellow;
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Item Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0" rowspan="2">
+         <widget class="QPushButton" name="pushButton_4">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Find</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label_apcm_total_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:brown;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Doc. Already Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_apcm_total_ready">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:rgb(173, 216, 230);
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>AP CREDIT MEMO READY TO POST:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QPushButton" name="pushButton_apcm_clear">
+          <property name="text">
+           <string>Clear</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_arinvoice">
+       <attribute name="title">
+        <string>AR Invoice</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_arinvoice_total_bp_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:orange;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>BP Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="lineEdit_6"/>
+        </item>
+        <item row="4" column="0" rowspan="2">
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Find</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QPushButton" name="pushButton_upload_arinvoice">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Post</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0" colspan="5">
+         <widget class="QTableWidget" name="tableWidget_arinvoice">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <column>
+           <property name="text">
+            <string>Status</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Posting Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Document Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Due Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ref. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ctrl Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Doc. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Remarks</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Intsr. No</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Cont. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng Doc.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>2nd Sub Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Currency</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Trans Amount</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line Total</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Item Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Vat Group</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Quantity</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>UoM Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>SAP DocEntry</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_arinvoice_total_item_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:yellow;
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Item Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0" colspan="5">
+         <widget class="Line" name="line_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_arinvoice_total_required_fields">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:red;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Required Fields: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="4">
+         <widget class="QPushButton" name="pushButton_show_arinvoice">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Upload</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_10">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:green;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>GL Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label_arinvoice_total_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:brown;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Doc. Already Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_arinvoice_total_ready">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>700</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:rgb(173, 216, 230);
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>AR INVOICES READY TO POST:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="4">
+         <widget class="QPushButton" name="pushButton_arinvoice_clear">
+          <property name="text">
+           <string>Clear</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_billingstatement">
+       <attribute name="title">
+        <string>Billing Statement</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_arinvoice_total_required_fields_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:red;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Required Fields: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_arinvoice_total_item_not_exist_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:yellow;
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Item Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_arinvoice_total_ready_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>700</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:rgb(173, 216, 230);
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>BILLING STATEMENT READY TO POST:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QPushButton" name="pushButton_show_arinvoice_2">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Upload</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_arinvoice_total_bp_not_exist_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:orange;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>BP Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_13">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:green;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>GL Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label_arinvoice_total_exist_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:brown;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Doc. Already Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0" colspan="4">
+         <widget class="Line" name="line_7">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Find</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="lineEdit_8"/>
+        </item>
+        <item row="5" column="0" colspan="4">
+         <widget class="QTableWidget" name="tableWidget_arinvoice_2">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <column>
+           <property name="text">
+            <string>Status</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Posting Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Document Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Due Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ref. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ctrl Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Doc. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Remarks</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Intsr. No</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Cont. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng Doc.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>2nd Sub Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Currency</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Trans Amount</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line Total</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Item Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Vat Group</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Quantity</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>UoM Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Rate</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>SAP DocEntry</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QPushButton" name="pushButton_upload_arinvoice_2">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Post</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QPushButton" name="pushButton_arinvoice_clear_2">
+          <property name="text">
+           <string>Clear</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_debitmemo">
+       <attribute name="title">
+        <string>Debit Memo</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <item row="0" column="3">
+         <widget class="QPushButton" name="pushButton_show_arcm">
+          <property name="text">
+           <string>Upload</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_11">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:red;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Required Fields: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_arcm_total_bp_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:orange;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>BP Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label_arcm_total_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:brown;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Doc. Already Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="lineEdit_7"/>
+        </item>
+        <item row="3" column="0" colspan="4">
+         <widget class="Line" name="line_6">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0" colspan="4">
+         <widget class="QTableWidget" name="tableWidget_arcm">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <column>
+           <property name="text">
+            <string>Status</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Posting Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Document Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Due Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ref. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ctrl Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Doc. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Remarks</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Intsr. No</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Cont. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng Doc.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>2nd Sub Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Currency</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Trans Amount</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line Total</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Item Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Vat Group</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Quantity</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>UoM Code</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QPushButton" name="pushButton_upload_arcm">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Post</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Find</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_arcm_total_item_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:yellow;
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Item Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_12">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:green;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>GL Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_arcm_total_ready">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:rgb(173, 216, 230);
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>AR CREDIT MEMO READY TO POST:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QPushButton" name="pushButton_arcm_clear">
+          <property name="text">
+           <string>Clear</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_journalentry">
+       <attribute name="title">
+        <string>Journal Entry</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_10">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_ojdt_total_required_fields">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:red;
+color:white;
+font-weight: bold;
+border-radius: 25px
+}</string>
+          </property>
+          <property name="text">
+           <string>Required Fields: 0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_ojdt_total_item_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:yellow;
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Item Does Not Exist: 0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_ojdt_total_ready">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:rgb(173, 216, 230);
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>JE READY TO POST:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QPushButton" name="pushButton_show_ojdt">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Upload</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_ojdt_total_bp_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:orange;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>BP Does Not Exist: 0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_ojdt_total_gl_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:green;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>GL Does Not Exist: 0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QPushButton" name="label_ojdt_total_ready_2">
+          <property name="text">
+           <string>Clear</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label_ojdt_total_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:brown;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Doc. Already Exist: 0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0" colspan="4">
+         <widget class="Line" name="line_9">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QPushButton" name="pushButton_10">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Find</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="lineEdit_10"/>
+        </item>
+        <item row="5" column="0" colspan="4">
+         <widget class="QTableWidget" name="tableWidget_ojdt">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <column>
+           <property name="text">
+            <string>Status</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Posting Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Document Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Due Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ref. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ctrl Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Doc. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Remarks</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Intsr. No</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Cont. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng Doc.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>2nd Sub Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Currency</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Trans Amount</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line Total</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Vat Group</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>DR / CR</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QPushButton" name="pushButton_upload_ojdt">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Post</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_collection">
+       <attribute name="title">
+        <string>Collections</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_9">
+        <item row="0" column="3">
+         <widget class="QPushButton" name="pushButton_show_outgoing_2">
+          <property name="text">
+           <string>Upload</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QPushButton" name="pushButton_upload_outgoing_2">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Post</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_ovpm_total_bp_not_exist_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:orange;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>BP Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_9">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:green;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>GL Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0" colspan="4">
+         <widget class="QTableWidget" name="tableWidget_ovpm_2">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <column>
+           <property name="text">
+            <string>Status</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Posting Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Document Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Due Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ref. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ctrl Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Doc. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Remarks</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Intsr. No</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Cont. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng Doc.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>2nd Sub Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Currency</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Trans Amount</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line Total</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>SAP Doc Entry</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Obj Type</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Rate</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_14">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:red;
+color:white;
+font-weight: bold;
+padding: 3px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Required Fields: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="lineEdit_9"/>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label_ovpm_total_exist_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:brown;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Doc. Already Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_ovpm_total_item_not_exist_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:yellow;
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Item Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_ovpm_total_ready_2">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:rgb(173, 216, 230);
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>INCOMING PAYMENTS READY TO POST:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QPushButton" name="pushButton_9">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Find</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0" colspan="4">
+         <widget class="Line" name="line_8">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QPushButton" name="pushButton_incoming_clear">
+          <property name="text">
+           <string>Clear</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_disbursement">
+       <attribute name="title">
+        <string>Disbursement</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="3" column="0" colspan="4">
+         <widget class="Line" name="line_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_ovpm_total_item_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:yellow;
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Item Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0" colspan="4">
+         <widget class="QTableWidget" name="tableWidget_ovpm">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <column>
+           <property name="text">
+            <string>Status</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Posting Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Document Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Due Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ref. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Code</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BP Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ctrl Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Unit Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Doc. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Remarks</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Intsr. No</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Cont. No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng Doc.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Clrng DT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>2nd Sub Acct</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line No.</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Currency</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Trans Amount</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Line Total</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>SAP Doc Entry</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Obj Type</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_ovpm_total_bp_not_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:orange;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>BP Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label_ovpm_total_exist">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:brown;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Doc. Already Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="lineEdit_5"/>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_8">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:green;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>GL Does Not Exist:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #f3d162
+}</string>
+          </property>
+          <property name="text">
+           <string>Find</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:red;
+color:white;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>Required Fields: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QPushButton" name="pushButton_show_outgoing">
+          <property name="text">
+           <string>Upload</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <widget class="QPushButton" name="pushButton_upload_outgoing">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Post</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_ovpm_total_ready">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+background-color:rgb(173, 216, 230);
+color:black;
+font-weight: bold
+}</string>
+          </property>
+          <property name="text">
+           <string>OUTGOING PAYMENTS READY TO POST:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QPushButton" name="pushButton_outgoing_clear">
+          <property name="text">
+           <string>Clear</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>941</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources/icons/Icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

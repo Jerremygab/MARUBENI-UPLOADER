@@ -1,0 +1,1665 @@
+--batch_36522ad7-fc75-4b56-8c71-56071383e77c
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10857)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100011463"}
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10858)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100011463"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10859)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100011463"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10860)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100011463"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10861)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100011463"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10862)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100011463"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10863)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10864)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10865)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10866)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10867)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10868)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10869)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10870)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012491"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10871)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012491"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10872)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012491"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10873)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012491"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10874)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012491"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10875)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012491"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10876)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10877)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10878)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10879)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10880)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10881)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10882)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10883)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10884)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10885)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10886)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10887)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10888)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10889)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10890)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10891)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10892)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10893)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10894)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10895)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10896)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10897)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10898)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10899)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012485"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10900)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012485"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10901)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10902)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10903)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012489"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10904)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012489"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10905)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012478"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10906)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012478"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10907)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012478"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10908)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012492"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10909)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012492"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10910)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10911)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10912)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10913)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10914)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10915)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10916)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10917)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10918)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10919)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10920)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10921)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10922)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10923)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10924)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012483"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10925)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012483"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10926)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10927)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10928)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10929)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10930)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10931)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10932)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10933)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10934)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012484"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10935)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012484"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10936)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10937)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10938)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10939)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10940)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012491"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10941)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012491"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10942)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10943)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10944)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012492"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10945)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012492"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10946)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10947)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10948)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012486"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10949)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012486"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10950)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012491"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10951)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012491"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10952)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10953)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10954)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012475"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10955)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012475"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10956)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10957)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10958)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10959)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10960)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10961)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10962)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10963)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10964)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10965)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10966)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10967)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10968)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10969)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10970)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012485"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10971)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012485"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10972)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10973)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10974)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10975)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10976)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012477"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10977)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012477"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10978)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012486"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10979)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012486"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10980)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012489"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10981)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012489"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10982)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012480"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10983)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012480"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10984)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012476"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10985)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012476"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10986)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10987)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012496"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10988)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012478"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10989)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012478"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10990)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012475"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10991)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012475"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10992)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012475"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10993)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012475"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10994)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012500"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v1/Invoices(10995)
+Content-Type: application/json
+
+{"U_ClrngDoc": "100012481"}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+--batch_36522ad7-fc75-4b56-8c71-56071383e77c--

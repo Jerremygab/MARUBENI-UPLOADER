@@ -1,0 +1,84 @@
+--batch_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/BusinessPartners
+Content-Type: application/json
+
+{"CardCode":"Bing001", "DocDate": "01/01/2023", "TaxDate": "01/01/2023", "DocDueDate": "01/01/2023", "NumAtCard": "SAMPLE",
+"U_DT":,
+"U_Unit":,
+"U_UnitName":,
+"U_DocNo":,
+"U_InsNo":,
+"Comments":,
+"U_ContNo":,
+"U_ClrngDoc":,
+"U_ClrngDT":,
+"U_SubAccount":,
+
+
+"DocumentLines": [{
+    "LineNum": 0,
+    "ItemCode": null,
+    "Currency": null,
+    "U_TransAmt": null,
+    "LineTotal": null,
+    "VatGroup": null,
+    "WTLiable": null,
+    "Quantity": null,
+    "UoMCode": null,
+
+    
+    }] }
+
+
+
+
+
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+Content-Type: application/http 
+Content-Transfer-Encoding: binary 
+
+POST /b1s/v1/BusinessPartners
+Content-Type: application/json
+
+{"CardCode":"Bing002", "CardName":"Bing002", "CardType": "C"}
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+Content-Type: application/http 
+Content-Transfer-Encoding: binary 
+
+
+POST /b1s/v1/BusinessPartners
+Content-Type: application/json
+
+{"CardCode":"Bing003", "CardName":"Bing003", "CardType": "C"}
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+Content-Type: application/http 
+Content-Transfer-Encoding: binary 
+
+
+POST /b1s/v1/BusinessPartners
+Content-Type: application/json
+
+{"CardCode":"Bing004", "CardName":"Bing004", "CardType": "C"}
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--batch_36522ad7-fc75-4b56-8c71-56071383e77c--

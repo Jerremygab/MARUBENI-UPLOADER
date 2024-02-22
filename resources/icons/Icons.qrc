@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="rederror">
+    <file alias="rederror">rederror.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,45 @@
+--batch_36522ad7-fc75-4b56-8c71-56071383e77c
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/PurchaseInvoices
+Content-Type: application/json
+
+{"CardCode": "PW049-V", "DocDate": "2023-10-12", "TaxDate": "2023-10-12", "DocDueDate": "2023-10-12", "NumAtCard": "15802-4/7/8", "Comments": "", "U_Unit": "CD12", "U_UnitName": "PET2", "U_DocNo": "5190000073", "U_InsNo": "", "U_ContNo": "CD2310P1", "U_ClrngDoc": "100008794", "U_ClrngDT": "", "U_SubAccount": "PW049", "DocumentLines": [{"ItemCode": "DOME10", "Quantity": 210.0, "VatGroup": "IVAT-E", "UomCode": "KL", "Currency": "PHP", "WTLiable": "tNo", "U_TransAmt": 10968749.98, "LineTotal": 10968749.98, "BaseEntry": 587, "BaseType": 20, "BaseLine": 0}], "WithholdingTaxDataCollection": []}
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/PurchaseInvoices
+Content-Type: application/json
+
+{"CardCode": "PW049-V", "DocDate": "2023-10-12", "TaxDate": "2023-10-12", "DocDueDate": "2023-10-12", "NumAtCard": "15802-4/7/8", "Comments": "", "U_Unit": "CD12", "U_UnitName": "PET2", "U_DocNo": "5190000074", "U_InsNo": "", "U_ContNo": "CD2310P1", "U_ClrngDoc": "100008794", "U_ClrngDT": "", "U_SubAccount": "PW049", "DocumentLines": [{"ItemCode": "DOME10", "Quantity": 210.0, "VatGroup": "IVAT-E", "UomCode": "KL", "Currency": "PHP", "WTLiable": "tYes", "U_TransAmt": 10968749.98, "LineTotal": 10968749.98, "BaseEntry": 587, "BaseType": 20, "BaseLine": 0}], "WithholdingTaxDataCollection": []}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/PurchaseInvoices
+Content-Type: application/json
+
+{"CardCode": "PW049-V", "DocDate": "2023-10-12", "TaxDate": "2023-10-12", "DocDueDate": "2023-10-12", "NumAtCard": "15802-4/7/8", "Comments": "VAT", "U_Unit": "CD12", "U_UnitName": "PET2", "U_DocNo": "5190000075", "U_InsNo": "", "U_ContNo": "CD2310P1", "U_ClrngDoc": "100008794", "U_ClrngDT": "", "U_SubAccount": "PW049", "DocumentLines": [{"ItemCode": "DOME10", "Quantity": 210.0, "VatGroup": "IVAT-E", "UomCode": "KL", "Currency": "PHP", "WTLiable": "tNo", "U_TransAmt": 10968749.98, "LineTotal": 10968749.98, "BaseEntry": 587, "BaseType": 20, "BaseLine": 0}], "WithholdingTaxDataCollection": []}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c
+
+Content-Type: application/http
+Content-Transfer-Encoding:binary
+
+POST /b1s/v1/PurchaseInvoices
+Content-Type: application/json
+
+{"CardCode": "PW049-V", "DocDate": "2023-10-12", "TaxDate": "2023-10-12", "DocDueDate": "2023-10-12", "NumAtCard": "15802-4/7/8", "Comments": "", "U_Unit": "CD12", "U_UnitName": "PET2", "U_DocNo": "5190000076", "U_InsNo": "", "U_ContNo": "CD2310P2", "U_ClrngDoc": "100008794", "U_ClrngDT": "", "U_SubAccount": "PW049", "DocumentLines": [{"ItemCode": "DOME10", "Quantity": 210.0, "VatGroup": "IVAT-N", "UomCode": "KL", "Currency": "PHP", "WTLiable": "tYes", "U_TransAmt": 10968749.98, "LineTotal": 10968749.98, "BaseEntry": 591, "BaseType": 20, "BaseLine": 0}], "WithholdingTaxDataCollection": []}
+--changeset_36522ad7-fc75-4b56-8c71-56071383e77c--
+
+--batch_36522ad7-fc75-4b56-8c71-56071383e77c--
